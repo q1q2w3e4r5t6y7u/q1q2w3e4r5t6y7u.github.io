@@ -1,0 +1,154 @@
+.white {
+			width: 100%;
+			height: 200px;
+		}
+
+		footer {
+			width: 100%;
+			height: 50px;
+			position: relative;
+			bottom: 0;
+			background-color: rgba(218, 218, 218, 1.00);
+			z-index: 666;
+			box-shadow: 0 -4px 4px rgba(0, 0, 0, .2);
+			border-radius: 50% 50% 0 0;
+		}
+
+		h2 {
+			text-indent: -20px
+		}
+
+		.content {
+			position: relative;
+			width: 70%;
+			margin: 0 auto;
+		}
+
+		header {
+			position: fixed;
+			left: 0px;
+			right: 0px;
+			top: 0;
+			background-color: rgba(150, 185, 125, 1.00);
+			height: 40px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: nowrap;
+			z-index: 665;
+			box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+			border-radius: 0 0 50% 50%;
+		}
+
+		aside {
+			z-index: 662;
+			overflow: hidden;
+			overflow-y: visible;
+			position: fixed;
+			width: 10%;
+			background-color: aqua;
+			margin: 0;
+			padding: 0;
+			top: 0px;
+			bottom: 0;
+		}
+
+
+		#leftaside {
+			left: 0px;
+			box-shadow: 4px 0 4px rgba(0, 0, 0, .5);
+		}
+
+
+		#rightaside {
+			right: 0px;
+			box-shadow: -4px 0 4px rgba(0, 0, 0, .5);
+		}
+
+
+		hr {
+			height: 5px;
+			background-color: rgba(159, 159, 159, 1.00);
+			box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+			width: 90%;
+		}
+
+		.nav {
+			display: block;
+			height: 100%;
+			font-size: 36px;
+			font-weight: 400;
+			margin-right: 9px;
+			margin-left: 9px;
+			color: rgba(255, 255, 255, 1.00);
+			text-decoration: none;
+		}
+
+		@keyframes a {
+			form {
+				font-size: 36px;
+				margin-left: 9px;
+				margin-right: 9px;
+				color: rgba(255, 255, 255, 1.00);
+			}
+
+			to {
+				font-size: 37px;
+				margin-left: 7px;
+				margin-right: 7px;
+				color: rgba(255, 255, 255, 0.50);
+			}
+		}
+
+		.nav:hover {
+			animation: a 0.1s linear 0s 1 normal;
+			animation-fill-mode: forwards;
+		}
+
+		#header {
+			position: relative;
+			left: 0px;
+			right: 0px;
+			top: 0;
+			height: 40px;
+		}
+
+		body {
+			margin: 0;
+			padding-top: 0;
+		}
+
+		ul>li {
+			margin-top: 3px;
+		}
+
+		div>ul>li {
+			margin-bottom: 10px;
+		}
+
+		h1 {
+			text-align: center;
+		}
+
+		.code {
+			display: inline-block;
+			padding: 0 4px;
+			margin-right: 5px;
+			font-size: 20px;
+			background-color: rgba(243, 243, 243, 1.00);
+			color: rgba(255, 0, 0, .9);
+			font-weight: 900;
+			border-radius: 10px;
+			box-shadow: 5px 5px 5px rgba(0, 0, 0, .2)
+		}
+
+		.mao {
+			font-size: 20px;
+		}
+
+		em {
+			color: rgba(255, 0, 0, 1.00);
+			font-style: normal;
+			font-weight: bold;
+		}
