@@ -1,0 +1,1566 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>我的笔记</title>
+	<link rel="stylesheet" type="text/css" href="./css/mycss1.0.1.css">
+
+</head>
+
+<body>
+
+	<header>
+	</header>
+	<div id="header"></div>
+	<aside id="leftaside">
+		<nav id="leftnav"></nav>
+	</aside>
+	<aside id="rightaside">
+		<nav id="rightnav"></nav>
+	</aside>
+	<hr id="s1">
+	<h1>HTML</h1>
+	<hr>
+
+	<div class="content">
+		<h2>HTML文档声明</h2>
+		<ul>
+			<li><span class="code">
+					&lt;!DOCTYOE html&gt;
+				</span> <span class="mao">: </span>
+				html5的声明
+			</li>
+		</ul>
+
+		<h2>标题</h2>
+		<ul>
+			<li><span class="code">
+					&lt;h1&gt; &lt;/h1&gt;
+				</span> <span class="mao">: </span>
+				一级标题
+			</li>
+
+			<li><span class="code">
+					&lt;h2&gt; &lt;/h2&gt;
+				</span> <span class="mao">: </span>
+				二级标题
+			</li>
+
+			<li><span class="code">
+					&lt;h3&gt; &lt;/h3&gt;
+				</span> <span class="mao">: </span>
+				三级标题
+			</li>
+
+			<li><span class="code">
+					&lt;h4&gt; &lt;/h4&gt;
+				</span> <span class="mao">: </span>
+				四级标题
+			</li>
+
+			<li><span class="code">
+					&lt;h5&gt; &lt;/h5&gt;
+				</span> <span class="mao">: </span>
+				五级标题
+			</li>
+
+			<li><span class="code">
+					&lt;h6&gt; &lt;/h6&gt;
+				</span> <span class="mao">: </span>
+				六级标题
+			</li>
+		</ul>
+
+		<h2>文本</h2>
+		<ul>
+			<li><span class="code">
+					&lt;p&gt; &lt;/p&gt;
+				</span> <span class="mao">: </span>
+				段落
+			</li>
+
+			<li><span class="code">
+					&lt;br /&gt;
+				</span> <span class="mao">: </span>
+				换行
+			</li>
+
+			<li><span class="code">
+					&lt;hr /&gt;
+				</span> <span class="mao">: </span>
+				水平线 <em>html5 请用css调整</em>
+				<ul>
+					<li>
+						color: 颜色
+					</li>
+					<li>
+						width: 长度
+					</li>
+					<li>
+						size: 宽度
+					</li>
+					<li>
+						align: 对齐方式
+					</li>
+				</ul>
+			</li>
+
+			<li><span class="code">
+					&lt;a&gt; &lt;/a&gt;
+				</span> <span class="mao">: </span>
+				链接
+			</li>
+
+			<li><span class="code">
+					&lt;em&gt; &lt;/em&gt;
+				</span> <span class="mao">: </span>
+				着重文字
+			</li>
+
+			<li><span class="code">
+					&lt;i&gt; &lt;/i&gt;
+				</span> <span class="mao">: </span>
+				斜体
+			</li>
+
+			<li><span class="code">
+					&lt;b&gt; &lt;/b&gt;
+				</span> <span class="mao">: </span>
+				加粗
+			</li>
+
+			<li><span class="code">
+					&lt;strong&gt; &lt;/strong&gt;
+				</span> <span class="mao">: </span>
+				加重语气
+			</li>
+
+			<li><span class="code">
+					&lt;del&gt; &lt;/del&gt;
+				</span> <span class="mao">: </span>
+				删除线
+			</li>
+
+			<li><span class="code">
+					&lt;span&gt; &lt;/span&gt;
+				</span> <span class="mao">: </span>
+				自定义
+			</li>
+
+		</ul>
+
+
+
+
+		<h2>图像</h2>
+		<ul>
+			<li><span class="code">
+					&lt;img /&gt;
+				</span> <span class="mao">: </span>
+				图片
+				<ul>
+					<li><!-- < --- &lt; 或 &#60; 或 &#060;    ---  &nbsp;-->
+						src: 图片源（同级用./&nbsp;父级用../）
+					</li>
+					<li>
+						width: 图片宽度
+					</li>
+					<li>
+						height: 图片高度
+					</li>
+					<li>
+						alt: 图片的替代文本
+					</li>
+					<li>
+						title: 鼠标悬停在图片上时的提示
+					</li>
+
+				</ul>
+			</li>
+		</ul>
+
+
+
+
+
+		<h2>列表</h2>
+		<ul>
+			<li><span class="code">
+					&lt;li&gt; &lt;/li&gt;
+				</span> <span class="mao">: </span>
+				有序、无序列表的行
+			</li>
+			<li><span class="code">
+					&lt;ol&gt; &lt;/ol&gt;
+				</span> <span class="mao">: </span>
+				有序列表
+				<ul>
+					<li>
+						type: 定义列表头的排序字符
+						<ul>
+							<li>
+								1 (数字)
+							</li>
+							<li>
+								a (小写字母)
+							</li>
+							<li>
+								A (大写字母)
+							</li>
+							<li>
+								i (小罗马)
+							</li>
+							<li>
+								I (大罗马)
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					&lt;ul&gt; &lt;/ul&gt;
+				</span> <span class="mao">: </span>
+				无序列表
+				<ul>
+					<li>
+						type: 定义列表头的字符
+						<ul>
+							<li>
+								disc(实心圆)
+							</li>
+							<li>
+								circle(空心圆)
+							</li>
+							<li>
+								square(方块)
+							</li>
+							<li>
+								none
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+
+
+
+
+		<h2>表格</h2>
+		<ul>
+			<li><span class="code">
+					&lt;table&gt; &lt;/table&gt;
+				</span> <span class="mao">: </span>
+				表格
+				<ul>
+					<li>border: 边框 如 border="1"</li>
+					<li>width: 表格宽</li>
+					<li>height: 表格高</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					&lt;thead&gt; &lt;/thead&gt;
+				</span> <span class="mao">: </span>
+				表格头
+			</li>
+			<li><span class="code">
+					&lt;tbody&gt; &lt;/tbody&gt;
+				</span> <span class="mao">: </span>
+				表格体
+			</li>
+			<li><span class="code">
+					&lt;tr&gt; &lt;/tr&gt;
+				</span> <span class="mao">: </span>
+				表格行
+			</li>
+			<li><span class="code">
+					&lt;th&gt; &lt;/th&gt;
+				</span> <span class="mao">: </span>
+				列标题
+				<ul>
+					<li>border: 边框 如 border="1"</li>
+					<li>colspan: 水平合并单元格</li>
+					<li>rowspan: 竖直合并单元格</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					&lt;td&gt; &lt;/td&gt;
+				</span> <span class="mao">: </span>
+				单元格
+				<ul>
+					<li>border: 边框 如 border="1"</li>
+					<li>colspan: 水平合并单元格</li>
+					<li>rowspan: 竖直合并单元格</li>
+				</ul>
+			</li>
+		</ul>
+
+
+
+		<h2>表单</h2>
+		<ul>
+			<li><span class="code">
+					&lt;form&gt; &lt;/form&gt;
+				</span> <span class="mao">: </span>
+				表单
+				<ul>
+					<li>action: 表单提交地址url</li>
+					<li>method: 表单提交方法
+						<ul>
+							<li>get</li>
+							<li>post</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+
+			<li><span class="code">
+					&lt;input&gt; &lt;/input&gt;
+				</span> <span class="mao">: </span>
+				表单重要控件
+				<ul>
+					<li>name: 变量名</li>
+					<li>value: 默认值</li>
+					<li>type: 控件类型
+						<ul>
+							<li>text(输入框)</li>
+							<li>password(密码框)</li>
+							<li>submit(提交按钮)</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+
+
+
+
+
+
+
+
+
+
+
+		<h2>HTML5 代替div的新标签</h2>
+		<ul>
+			<li><span class="code">
+					&lt;header&gt; &lt;/header&gt;
+				</span> <span class="mao">: </span>
+				头部容器
+			</li>
+			<li><span class="code">
+					&lt;nav&gt; &lt;/nav&gt;
+				</span> <span class="mao">: </span>
+				导航栏
+			</li>
+			<li><span class="code">
+					&lt;section&gt; &lt;/section&gt;
+				</span> <span class="mao">: </span>
+				节
+			</li>
+			<li><span class="code">
+					&lt;aside&gt; &lt;/aside&gt;
+				</span> <span class="mao">: </span>
+				侧边栏
+			</li>
+			<li><span class="code">
+					&lt;article&gt; &lt;/article&gt;
+				</span> <span class="mao">: </span>
+				文章
+			</li>
+			<li><span class="code">
+					&lt;footer&gt; &lt;/footer&gt;
+				</span> <span class="mao">: </span>
+				尾部容器
+			</li>
+		</ul>
+
+		<h2>HTML5 代替div的新标签</h2>
+		<ul>
+			<li><span class="code">
+					字符实体
+				</span> <span class="mao">: </span>
+				<ul overflow="s">
+					<li>&lt; : &amp;lt;</li>
+					<li>&gt; : &amp;gt;</li>
+					<li>&amp; : &amp;amp;</li>
+					<li>&nbsp; : &amp;nbsp;</li>
+					<li>&yen; : &amp;yen;</li>
+					<li>&copy; : &amp;copy;</li>
+					<li>&reg; : &amp;reg;</li>
+					<li>&trade; : &amp;trade;</li>
+				</ul>
+			</li>
+		</ul>
+
+		<h2>其他</h2>
+		<ul>
+			<li type="none"><span class="code" style="width: 100%">
+					&lt;meta name="viewport"
+					content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"&gt;
+					<ul>
+						<li>width=device-width 宽度等于用户设备宽度</li>
+						<li>initial-scale=1 初始缩放比</li>
+						<li>maximum-scale=1 缩放最大比</li>
+						<li>user-scalable=no 用户是否可缩放</li>
+					</ul>
+				</span>
+			</li>
+			<li><span class="code">
+					&lt;link rel="stylesheet" type="text/css" href="./xxx.css"&gt;
+				</span>
+			</li>
+		</ul>
+		<!--
+
+
+		<h2>其他</h2>
+	<ul>
+		<li type="none"><span class="code" style="width: 100%">
+			&lt;meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"&gt; 
+			<ul>
+			<li>width=device-width 宽度等于用户设备宽度</li>
+			<li>initial-scale=1 初始缩放比</li>
+			<li>maximum-scale=1 缩放最大比</li>
+			<li>user-scalable=no 用户是否可缩放</li>
+			</ul>
+			</span>
+		</li>
+
+
+<h2>基础</h2>
+	<ul>
+		<li><span class="code">
+			typeof xxx
+			</span> <span class="mao">: </span>
+			判断类型
+		</li>
+	</ul>
+
+
+			<li>< : &lt;</li>
+			<li>> : &gt;</li>
+			<li>& : &amp;</li>
+			<li>   : &nbsp;</li>
+-->
+	</div>
+	<div class="white"></div>
+	<hr id="s2">
+	<h1>CSS</h1>
+	<hr>
+	<div class="content">
+
+
+		<h2>CSS选择器</h2>
+		<ul>
+			<li><span class="code">
+					*{ ... }
+				</span> <span class="mao">: </span>
+				全局选择器 选择全部元素
+			</li>
+			<li><span class="code">
+					h1{ ... }
+				</span> <span class="mao">: </span>
+				标签选择器 选择所有 <b>h1</b> 元素
+			</li>
+			<li><span class="code">
+					h1,h2{ ... }
+				</span> <span class="mao">: </span>
+				混合选择器 选择所有满足至少一种条件的元素
+			</li>
+			<li><span class="code">
+					p span{ ... }
+				</span> <span class="mao">: </span>
+				后代选择器 选择 <b>p</b> 标签下的所有 <b>span</b> 元素
+			</li>
+			<li><span class="code">
+					ul&gt;li{ ... }
+				</span> <span class="mao">: </span>
+				子代选择器 选择 <b>ul</b> 下的直接子元素 <b>li</b>
+			</li>
+			<li><span class="code">
+					.class{ ... }
+				</span> <span class="mao">: </span>
+				类选择器 根据class属性选择元素
+			</li>
+			<li><span class="code">
+					#id{ ... }
+				</span> <span class="mao">: </span>
+				id选择器 根据id属性选择元素
+			</li>
+			<li><span class="code">
+					h1+p{ ... }
+				</span> <span class="mao">: </span>
+				相邻<em>兄弟</em>选择器 选择 <b>h1</b> 元素后的第一个 <b>p</b> 元素
+			</li>
+			<li><span class="code">
+					h1~p{ ... }
+				</span> <span class="mao">: </span>
+				通用<em>兄弟</em>选择器 选择 <b>h1</b> 元素后的所有同级的 <b>p</b> 元素
+			</li>
+		</ul>
+
+		<h2>CSS字体</h2>
+		<ul>
+			<li><span class="code">
+					color
+				</span> <span class="mao">: </span>
+				字体颜色
+				<ul>
+					<li>red (颜色名)</li>
+					<li>#ffffff (十六进制颜色值)</li>
+					<li>rgba(0,0,0,1.00) (红、绿、蓝、透明度)</li>
+					<li>rgb(0,0,0) (红、绿、蓝)</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					font-size
+				</span> <span class="mao">: </span>
+				字体大小 chrome最小支持12px
+			</li>
+			<li><span class="code">
+					font-weight
+				</span> <span class="mao">: </span>
+				字体粗细
+				<ul>
+					<li>100 ~ 900</li>
+					<li>bold (相当于700)</li>
+					<li>bolder</li>
+					<li>lighter</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					font-style
+				</span> <span class="mao">: </span>
+				字体是否斜体
+				<ul>
+					<li>normal</li>
+					<li>italic</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					font-family
+				</span> <span class="mao">: </span>
+				字体样式 微软雅黑 楷体 ...
+			</li>
+		</ul>
+
+		<h2>文本</h2>
+		<ul>
+			<li><span class="code">
+					text-align
+				</span> <span class="mao">: </span>
+				文本水平对齐方式
+				<ul>
+					<li>left</li>
+					<li>center</li>
+					<li>right</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					text-decoration
+				</span> <span class="mao">: </span>
+				文本修饰线
+				<ul>
+					<li>underline (下划线)</li>
+					<li>overline (上划线)</li>
+					<li>line-through (删除线)</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					text-transform
+				</span> <span class="mao">: </span>
+				文本大小写
+				<ul>
+					<li>captialize (单词首字母大写)</li>
+					<li>uppercase (全大写)</li>
+					<li>lowercase (全小写)</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					text-indent
+				</span> <span class="mao">: </span>
+				文本首行缩进
+			</li>
+		</ul>
+
+
+		<h2>背景</h2>
+		<ul>
+			<li><span class="code">
+					background-color
+				</span> <span class="mao">: </span>
+				背景颜色
+				<ul>
+					<li>red (颜色名)</li>
+					<li>#ffffff (十六进制颜色值)</li>
+					<li>rgba(0,0,0,1.00) (红、绿、蓝、透明度)</li>
+					<li>rgb(0,0,0) (红、绿、蓝)</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					background-image
+				</span> <span class="mao">: </span>
+				背景图片
+				<ul>
+					<li>url("")</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					background-repeat
+				</span> <span class="mao">: </span>
+				背景图片重复方式
+				<ul>
+					<li>repeat</li>
+					<li>repeat-x</li>
+					<li>repeat-y</li>
+					<li>no-repeat</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					background-size
+				</span> <span class="mao">: </span>
+				背景图片大小
+				<ul>
+					<li>cover (保持图片比例，填满背景，溢出)</li>
+					<li>contain (保持图片比例，合适背景，填不满)</li>
+					<li>xxpx xxpx</li>
+					<li>xx% xx%</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					background-position
+				</span> <span class="mao">: </span>
+				背景图片位置
+				<ul>
+					<li>left top (左上)</li>
+					<li>right bottom (右下)</li>
+					<li>center center (中心)</li>
+					<li>xxpx xxpx</li>
+					<li>xx% xx%</li>
+				</ul>
+			</li>
+		</ul>
+
+
+
+		<h2>表格</h2>
+		<ul>
+			<li><span class="code">
+					border
+				</span> <span class="mao">: </span>
+				表格边框 -<b>table th td</b> 如 border: 1px solid black;
+			</li>
+			<li><span class="code">
+					border-collapse
+				</span> <span class="mao">: </span>
+				合并表格边框 -<b>table</b> 如 border-collapse: collapse;
+			</li>
+			<li><span class="code">
+					text-align
+				</span> <span class="mao">: </span>
+				表格内文本水平对齐方式 -<b>th td</b>
+			</li>
+			<li><span class="code">
+					padding
+				</span> <span class="mao">: </span>
+				适当设置外边距可以撑开单元格 -<b>th td</b>
+			</li>
+		</ul>
+
+
+
+
+		<h2>CSS盒子</h2>
+		<ul>
+			<li><span class="code">
+					padding
+				</span> <span class="mao">: </span>
+				外边距
+			</li>
+			<li><span class="code">
+					margin
+				</span> <span class="mao">: </span>
+				内边距
+			</li>
+			<li><span class="code">
+					border
+				</span> <span class="mao">: </span>
+				边框 如 border: 1px solid black;
+			</li>
+		</ul>
+
+
+
+
+		<h2>CSS弹性盒</h2>
+		<ul>
+			<li><span class="code">
+					display : flex; - <b>父元素</b>
+				</span>
+			</li>
+			<li><span class="code">
+					flex-direction
+				</span> <span class="mao">: </span>
+				容器内块元素排列方向 - <b>父元素</b>
+				<ul>
+					<li>row (横向排列)</li>
+					<li>column (纵向排列)</li>
+					<li>row-reverse (反向横向排列)</li>
+					<li>column-reverse (反向纵向排列)</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					justify-content
+				</span> <span class="mao">: </span>
+				容器内块元素水平对齐方式 - <b>父元素</b>
+				<ul>
+					<li>flex-start (上)</li>
+					<li>flex-end (下)</li>
+					<li>center (居中)</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					align-items
+				</span> <span class="mao">: </span>
+				容器内块元素竖直对齐方式 - <b>父元素</b>
+				<ul>
+					<li>flex-start (左)</li>
+					<li>flex-end (右)</li>
+					<li>center (居中)</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					flex
+				</span> <span class="mao">: </span>
+				容器内块元素分配空间 - <b>子元素</b>
+				<ul>
+					<li>语法 flex: flex-grow flex-shrink flex-basis|auto|initial|inherit;
+						<ul>
+							<li>flex-grow 一个数字，规定项目将相对于其他灵活的项目进行扩展的量。</li>
+							<li>flex-shrink 一个数字，规定项目将相对于其他灵活的项目进行收缩的量。</li>
+							<li>flex-basis 项目的长度。合法值："auto"、"inherit" 或一个后跟 "%"、"px"、"em" 或任何其他长度单位的数字</li>
+							<li>auto 与 1 1 auto 相同</li>
+							<li>none 与 0 0 auto 相同</li>
+							<li>initial 设置该属性为它的默认值，即为 0 1 auto</li>
+							<li>inherit 从父元素继承该属性</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					align-self
+				</span> <span class="mao">: </span>
+				容器内块元素对齐方式，覆盖父元素的对齐方式 - <b>子元素</b>
+			</li>
+			<li><span class="code">
+					flex-wrap
+				</span> <span class="mao">: </span>
+				规定换行 - <b>父元素</b>
+				<ul>
+					<li>nowrap</li>
+					<li>wrap</li>
+					<li>wrap-reverse</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					order
+				</span> <span class="mao">: </span>
+				规定元素排列顺序 - <b>子元素</b>
+			</li>
+		</ul>
+
+
+
+
+		<h2>CSS浮动</h2>
+		<ul>
+			<li><span class="code">
+					float
+				</span> <span class="mao">: </span>
+				浮动方向
+				<ul>
+					<li>left</li>
+					<li>right</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					clear
+				</span> <span class="mao">: </span>
+				清除浮动
+				<ul>
+					<li>both</li>
+					<li>right</li>
+					<li>left</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					overflow
+				</span> <span class="mao">: </span>
+				可以控制内容溢出元素框时的表现。
+				<ul>
+					<li>visible 默认值。内容不会被修剪，会呈现在元素框之外。</li>
+					<li>hidden 内容会被修剪，并且其余内容是不可见的。</li>
+					<li>scroll 内容会被修剪，但是浏览器会显示滚动条以便查看其余的内容。</li>
+					<li>auto 如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容。</li>
+					<li>inherit 规定应该从父元素继承 overflow 属性的值。</li>
+					<li>overflow:hidden;clear:both; 用于浮动元素的父元素时可以清除浮动</li>
+				</ul>
+			</li>
+		</ul>
+
+
+
+
+		<h2>CSS定位</h2>
+		<ul>
+			<li><span class="code">
+					position
+				</span> <span class="mao">: </span>
+				定位类型
+				<ul>
+					<li>relative: 相对定位，参照物是设置了 position 的父元素</li>
+					<li>absolute: 绝对定位，脱离文档流，参照物是设置了 position 的父元素</li>
+					<li>fixed: 固定定位，脱离文档流，参照物是窗口</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					z-index
+				</span> <span class="mao">: </span>
+				调整元素覆盖顺序
+			</li>
+		</ul>
+
+		<h2>其他</h2>
+		<ul>
+			<li><span class="code">
+					display
+				</span> <span class="mao">: </span>
+				元素性质
+				<ul>
+					<li>none: 不显示</li>
+					<li>block: 块级元素</li>
+					<li>inline: 内联元素</li>
+					<li>inline-block: 行内块级元素</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					broder-radius
+				</span> <span class="mao">: </span>
+				设置圆角 % 或 px
+			</li>
+			<li><span class="code">
+					box-shadow
+				</span> <span class="mao">: </span>
+				设置圆角 % 或 px
+			</li>
+			<li><span class="code">
+					overflow
+				</span> <span class="mao">: </span>
+				可以控制内容溢出元素框时的表现。
+				<ul>
+					<li>visible 默认值。内容不会被修剪，会呈现在元素框之外。</li>
+					<li>hidden 内容会被修剪，并且其余内容是不可见的。</li>
+					<li>scroll 内容会被修剪，但是浏览器会显示滚动条以便查看其余的内容。</li>
+					<li>auto 如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容。</li>
+					<li>inherit 规定应该从父元素继承 overflow 属性的值。</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					opacity
+				</span> <span class="mao">: </span>
+				设置透明度
+			</li>
+		</ul>
+
+
+
+
+
+
+
+
+		<h2>CSS动画</h2>
+		<ul>
+			<li type="none"><span class="code" style="width: 100%">
+					@keyframes name{<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;from{<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;css;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;50%{<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;css;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;to{<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;css;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+					}<br>
+					//@-webkit-keyframes myfirst /* Safari 与 Chrome */<br>
+					//-webkit-animation: myfirst 5s; /* Safari 与 Chrome */
+				</span>
+			</li>
+			<li><span class="code">
+					animation
+				</span> <span class="mao">: </span>
+				执行动画
+				<ul>
+					<li>语法 animation: name duration timing-function delay count dierction;
+						<ul>
+							<li>name 关键帧名称</li>
+							<li>duration 持续时间 s ms</li>
+							<li>timing-function 速度设置
+								<ul>
+									<li>ease 逐渐变慢</li>
+									<li>ease-in 加速</li>
+									<li>ease-out 减速</li>
+									<li>ease-in-out 先加速后减速</li>
+									<li>linear 匀速</li>
+								</ul>
+							</li>
+							<li>delay 延时执行 s ms</li>
+							<li>count 播放次数，infinite表示无限</li>
+							<li>dierction 播放方向
+								<ul>
+									<li>normal 向前播放</li>
+									<li>alternate 循环播放</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><span class="code">
+					animation-play-state
+				</span> <span class="mao">: </span>
+				控制动画播放
+				<ul>
+					<li>running 播放</li>
+					<li>paused 停止播放</li>
+				</ul>
+			</li>
+			<li type="none"><span class="code" style="width: 100%">
+					/*媒体查询*/<br>
+					@media screen and (max-width: 768px){ ... }<br>
+					@media screen and (min-width: 768px) and (max-width: 996px){ ... }<br>
+					@media screen and (min-width: 996px){ ... }<br>
+				</span>
+			</li>
+		</ul>
+
+		<!--
+
+
+		<h2>其他</h2>
+	<ul>
+		<li type="none"><span class="code" style="width: 100%">
+			&lt;meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"&gt; 
+			<ul>
+			<li>width=device-width 宽度等于用户设备宽度</li>
+			<li>initial-scale=1 初始缩放比</li>
+			<li>maximum-scale=1 缩放最大比</li>
+			<li>user-scalable=no 用户是否可缩放</li>
+			</ul>
+			</span>
+		</li>
+
+
+<h2>基础</h2>
+	<ul>
+		<li><span class="code">
+			typeof xxx
+			</span> <span class="mao">: </span>
+			判断类型
+		</li>
+	</ul>
+
+
+			<li>< : &lt;</li>
+			<li>> : &gt;</li>
+			<li>& : &amp;</li>
+			<li>   : &nbsp;</li>
+-->
+
+	</div>
+
+	<div class="white"></div>
+	<hr id="s3">
+	<h1>JavaScript</h1>
+	<hr>
+	<div class="content">
+
+		<h2>基础</h2>
+		<ul>
+			<li><span class="code">
+					typeof xxx
+				</span> <span class="mao">: </span>
+				判断类型
+			</li>
+		</ul>
+
+
+		<h2>字符串</h2>
+		<ul>
+			<li><span class="code">
+					string.length
+				</span> <span class="mao">: </span>
+				获取字符串长度
+			</li>
+			<li><span class="code">
+					string.charAt(int index)
+				</span> <span class="mao">: </span>
+				获取字符串中的单个字符(越界不报错，返回空字符)
+			</li>
+
+			<li><span class="code">
+					string.substring(int s,int e)
+				</span> <span class="mao">: </span>
+				获取子字符串
+			</li>
+
+			<li><span class="code">
+					string.substring(int s)
+				</span> <span class="mao">: </span>
+				获取子字符串
+			</li>
+
+			<li><span class="code">
+					string.substr(int s,int length)
+				</span> <span class="mao">: </span>
+				获取子字符串
+			</li>
+
+			<li><span class="code">
+					string.substr(int s)
+				</span> <span class="mao">: </span>
+				获取子字符串
+			</li>
+
+			<li><span class="code">
+					string.indexOf(string s)
+				</span> <span class="mao">: </span>
+				不存在返回-1
+			</li>
+
+			<li><span class="code">
+					string.indexOf(string s,int s)
+				</span> <span class="mao">: </span>
+				不存在返回-1
+			</li>
+
+			<li><span class="code">
+					string.trim()
+				</span> <span class="mao">: </span>
+				去除首尾空白字符
+			</li>
+
+			<li><span class="code">
+					string.trimStart()
+				</span> <span class="mao">: </span>
+				去除首空白字符
+			</li>
+
+			<li><span class="code">
+					string.trimEnd()
+				</span> <span class="mao">: </span>
+				去除尾空白字符
+			</li>
+
+			<li><span class="code">
+					string.split(string)
+				</span> <span class="mao">: </span>
+				分割字符串
+			</li>
+
+			<li><span class="code">
+					string.split(string ,int max)
+				</span> <span class="mao">: </span>
+				超出的删除
+			</li>
+
+			<li><span class="code">
+					string.split("")
+				</span> <span class="mao">: </span>
+				返回一个一个字符组成的数组
+			</li>
+		</ul>
+
+
+		<h2>数组</h2>
+		<ul>
+
+			<li type="none"><span class="code" style="width: 100%">
+					for(var i in names){<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;alert(names[i])<br>
+					}
+				</span>
+			</li>
+
+			<li><span class="code">
+					arr.length
+				</span> <span class="mao">: </span>
+				数组长度
+			</li>
+
+			<li><span class="code">
+					Array.isArray(arr)
+				</span> <span class="mao">: </span>
+				判断对象是否是一个数组
+			</li>
+
+			<li><span class="code">
+					arr.push(xxx...)
+				</span> <span class="mao">: </span>
+				向数组末尾添加数值，并返回数组长度
+			</li>
+
+			<li><span class="code">
+					arr.pop()
+				</span> <span class="mao">: </span>
+				删除数组最后一个值并返回它
+			</li>
+
+			<li><span class="code">
+					arr.unshift(xxx...)
+				</span> <span class="mao">: </span>
+				向数组首部添加数值，并返回数组长度
+			</li>
+
+			<li><span class="code">
+					arr.shift()
+				</span> <span class="mao">: </span>
+				删除数组开头一个值并返回它
+			</li>
+
+			<li><span class="code">
+					arr.join(string s)
+				</span> <span class="mao">: </span>
+				数组元素用s隔开，返回该字符串
+			</li>
+
+			<li><span class="code">
+					arr.concat(xxx...)
+				</span> <span class="mao">: </span>
+				链接数组
+			</li>
+
+			<li><span class="code">
+					arr.reverse()
+				</span> <span class="mao">: </span>
+				数组翻转
+			</li>
+
+			<li><span class="code">
+					arr.indexOf(xxx)
+				</span> <span class="mao">: </span>
+				不存在返回-1
+			</li>
+
+			<li><span class="code">
+					arr.indexOf(xxx,int s)
+				</span> <span class="mao">: </span>
+				不存在返回-1
+			</li>
+		</ul>
+		<h2>Math对象</h2>
+		<ul>
+			<li><span class="code">
+					Math.abs(num)
+				</span> <span class="mao">: </span>
+				绝对值
+			</li>
+
+
+			<li><span class="code">
+					Math.max(num,num...)
+				</span> <span class="mao">: </span>
+				最大的数
+			</li>
+
+
+			<li><span class="code">
+					Math.min(num,num...)
+				</span> <span class="mao">: </span>
+				最小的数
+			</li>
+
+
+			<li><span class="code">
+					Math.floor(num)
+				</span> <span class="mao">: </span>
+				舍去小数
+			</li>
+
+
+			<li><span class="code">
+					Math.ceil(num)
+				</span> <span class="mao">: </span>
+				小数进一
+			</li>
+
+
+			<li><span class="code">
+					Math.random()
+				</span> <span class="mao">: </span>
+				随机数0-1
+			</li>
+		</ul>
+
+
+		<h2>Date对象</h2>
+		<ul>
+			<li><span class="code">
+					Date.now()
+				</span> <span class="mao">: </span>
+				距离北京时间1970.1.1 08:00:00的毫秒数(时间戳)
+			</li>
+
+
+			<li><span class="code">
+					new Date(num)
+				</span> <span class="mao">: </span>
+				将时间戳转为对象
+			</li>
+
+
+			<li><span class="code">
+					new Date(year,month,day,h,m,s,ms)
+				</span> <span class="mao">: </span>
+				指定时间对象
+			</li>
+
+
+			<li><span class="code">
+					new Date()
+				</span> <span class="mao">: </span>
+				当前时间对象
+			</li>
+
+
+			<li><span class="code">
+					getTime()
+				</span> <span class="mao">: </span>
+				返回实例距离1970年1月1日00:00:00的毫秒数
+			</li>
+
+
+			<li><span class="code">
+					getDate()
+				</span> <span class="mao">: </span>
+				返回实例对象对应每个月的几号(从1开始)
+			</li>
+
+
+			<li><span class="code">
+					getDay()
+				</span> <span class="mao">: </span>
+				返回星期几，星期日为0，星期一为1，以此类推
+			</li>
+
+
+			<li><span class="code">
+					getYear()
+				</span> <span class="mao">: </span>
+				返回距离1900的年数
+			</li>
+
+
+			<li><span class="code">
+					getFullYear()
+				</span> <span class="mao">: </span>
+				返回四位的年份
+			</li>
+
+
+			<li><span class="code">
+					getMonth()
+				</span> <span class="mao">: </span>
+				返回月份（0表示1月，11表示12月)
+			</li>
+
+
+			<li><span class="code">
+					getHours()
+				</span> <span class="mao">: </span>
+				返回小时（0-23)
+			</li>
+
+
+			<li><span class="code">
+					getMilliseconds()
+				</span> <span class="mao">: </span>
+				返回毫秒(0-999)
+			</li>
+
+
+			<li><span class="code">
+					getMinutes()
+				</span> <span class="mao">: </span>
+				返回分钟(0-59)
+			</li>
+
+
+			<li><span class="code">
+					getSeconds()
+				</span> <span class="mao">: </span>
+				返回秒(0-59)
+			</li>
+		</ul>
+
+
+		<h2>DOM选择</h2>
+		<ul>
+			<li><span class="code">
+					getElementsByTagName()
+				</span> <span class="mao">: </span>
+				按标签选
+			</li>
+
+
+			<li><span class="code">
+					getElementsByClassName()
+				</span> <span class="mao">: </span>
+				按class属性选
+			</li>
+
+
+			<li><span class="code">
+					getElementsByName()
+				</span> <span class="mao">: </span>
+				按name属性选
+			</li>
+
+
+			<li><span class="code">
+					getElementById()
+				</span> <span class="mao">: </span>
+				按id属性选
+			</li>
+
+
+			<li><span class="code">
+					querySelector()
+				</span> <span class="mao">: </span>
+				接受一个css选择器做参数，返回第一个符合的元素
+			</li>
+
+
+			<li><span class="code">
+					querySelectorAll()
+				</span> <span class="mao">: </span>
+				接受一个css选择器做参数，返回所有符合的元素
+			</li>
+		</ul>
+
+
+		<h2>DOM操作元素</h2>
+		<ul>
+			<li type="none"><span class="code" style="width: 100%">
+					var p = document.createElement('p');<br>
+					<br>
+					//插入文本内容<br>
+					var text = document.createTextNode('文本内容');<br>
+					p.appendChild(text)<br>
+					<br>
+					//设置属性<br>
+					var id = document.createAttribute('id');<br>
+					id.value = 'myid'<br>
+					p.setAttributeNode(id)
+				</span>
+			</li>
+		</ul>
+
+
+		<h2>Element对象</h2>
+		<ul>
+			<li><span class="code">
+					element.id
+				</span> <span class="mao">: </span>
+				操作元素的id属性
+			</li>
+			<li><span class="code">
+					element.className
+				</span> <span class="mao">: </span>
+				操作元素的class属性
+			</li>
+			<li><span class="code">
+					element.classList.add('class')
+				</span> <span class="mao">: </span>
+				扩展元素的class属性
+			</li>
+			<li><span class="code">
+					element.classList.remove('class')
+				</span> <span class="mao">: </span>
+				移除元素的class属性的'class'值
+			</li>
+			<li><span class="code">
+					element.classList.contains('class')
+				</span> <span class="mao">: </span>
+				判断元素的class属性是否包含'class'值
+			</li>
+			<li><span class="code">
+					element.classList.toggle('class')
+				</span> <span class="mao">: </span>
+				存在则移除，不存在则添加
+			</li>
+			<li><span class="code">
+					element.innerHTML
+				</span> <span class="mao">: </span>
+				操作元素内容
+			</li>
+			<li><span class="code">
+					element.innerText
+				</span> <span class="mao">: </span>
+				操作元素文本内容
+			</li>
+			<li><span class="code">
+					element.clientHeight
+				</span> <span class="mao">: </span>
+				获取元素高度包括 padding部分,但是不包括 border、margin
+			</li>
+			<li><span class="code">
+					element.clientWidth
+				</span> <span class="mao">: </span>
+				获取元素宽度包括 padding部分，但是不包括 border、margin
+			</li>
+			<li><span class="code">
+					element.scrollHeight
+				</span> <span class="mao">: </span>
+				元素总高度,它包括 padding ,1但是不包括border, margin包括溢出的不可见内容
+			</li>
+			<li><span class="code">
+					element.scrollWidth
+				</span> <span class="mao">: </span>
+				元素总宽度,它包括padding ,但是不包括 border、margin包括溢出的不可见内容
+			</li>
+			<li><span class="code">
+					element.scrollLeft
+				</span> <span class="mao">: </span>
+				元素的水平滚动条向右滚动的像素数量
+			</li>
+			<li><span class="code">
+					element.scrollTop
+				</span> <span class="mao">: </span>
+				元素的水平滚动条向下滚动的像素数量
+			</li>
+			<li><span class="code">
+					element.offsetHeight
+				</span> <span class="mao">: </span>
+				元素的CSS垂直高度(单位像素) ,包括元素本身的高度、padding和 border
+			</li>
+			<li><span class="code">
+					element.offsetWidth
+				</span> <span class="mao">: </span>
+				元素的CSS水平宽度(单位像素) ,包括元素本身的高度、padding和border素
+			</li>
+			<li><span class="code">
+					element.offsetLeft
+				</span> <span class="mao">: </span>
+				到定位父级左边界的间距
+			</li>
+			<li><span class="code">
+					element.offsetTop
+				</span> <span class="mao">: </span>
+				到定位父级上边界的间距
+			</li>
+		</ul>
+
+		<!--
+
+<h2>基础</h2>
+	<ul>
+		<li><span class="code">
+			typeof xxx
+			</span> <span class="mao">: </span>
+			判断类型
+		</li>
+	</ul>	
+
+		<h2>其他</h2>
+	<ul>
+		<li type="none"><span class="code" style="width: 100%">
+			&lt;meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"&gt; 
+			<ul>
+			<li>width=device-width 宽度等于用户设备宽度</li>
+			<li>initial-scale=1 初始缩放比</li>
+			<li>maximum-scale=1 缩放最大比</li>
+			<li>user-scalable=no 用户是否可缩放</li>
+			</ul>
+			</span>
+		</li>
+
+
+			<li>< : &lt;</li>
+			<li>> : &gt;</li>
+			<li>& : &amp;</li>
+			<li>   : &nbsp;</li>
+
+-->
+
+	</div>
+	<div class="white"></div>
+	<hr id="s4">
+	<h1>MarkDown</h1>
+	<hr>
+	<div class="content">
+
+		<h2>markdown基本语法</h2>
+		<ul>
+			<li type="none"><span class="code" style="width: 100%">&nbsp;&nbsp;&nbsp;&nbsp;<br>
+					#&nbsp;一级标题<br>##&nbsp;二级标题<br>###&nbsp;三级标题<br>####&nbsp;四级标题<br>#####&nbsp;五级标题<br>######&nbsp;六级标题<br>#######&nbsp;没有七级<br><br>##&nbsp;无序列表<br>-&nbsp;1<br>-&nbsp;2<br>-&nbsp;3<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;5<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;6<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;9<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;5<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;9<br>-&nbsp;5<br><br>##&nbsp;有序列表<br>1.&nbsp;列表<br>2.&nbsp;列表<br>3.&nbsp;列表<br>4.&nbsp;列表<br>&nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;列表<br>&nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;列表<br>&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;列表<br>&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;列表<br>5.&nbsp;列表<br><br>##&nbsp;引用<br>&gt;&nbsp;斤斤计较<br><br>斤斤计较<br><br>*这是斜体*<br>**这是粗体**<br>***粗斜体***<br><br>`哈哈哈哈`<br><br>[这是链接](/storage/emulated/0/download/1.png)<br>![网站](/storage/emulated/0/download/1.png)<br><br>###&nbsp;分割线<br>123<br>***<br>321<br><br>#&nbsp;表格<br>|&nbsp;第一列&nbsp;&nbsp;|&nbsp;第二列&nbsp;|<br>|&nbsp;:-------:&nbsp;|&nbsp;:-------:&nbsp;|&nbsp;&nbsp;<br>|&nbsp;第一个&nbsp;|&nbsp;第二个&nbsp;|<br>|&nbsp;第一个&nbsp;|&nbsp;第二个&nbsp;|<br><br>```python<br>import&nbsp;re<br>print(3)<br>```
+				</span>
+			</li>
+		</ul>
+		<!--
+
+
+		<h2>其他</h2>
+	<ul>
+		<li type="none"><span class="code" style="width: 100%">
+			&lt;meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"&gt; 
+			<ul>
+			<li>width=device-width 宽度等于用户设备宽度</li>
+			<li>initial-scale=1 初始缩放比</li>
+			<li>maximum-scale=1 缩放最大比</li>
+			<li>user-scalable=no 用户是否可缩放</li>
+			</ul>
+			</span>
+		</li>
+
+
+<h2>基础</h2>
+	<ul>
+		<li><span class="code">
+			typeof xxx
+			</span> <span class="mao">: </span>
+			判断类型
+		</li>
+	</ul>
+
+
+			<li>< : &lt;</li>
+			<li>> : &gt;</li>
+			<li>& : &amp;</li>
+			<li>   : &nbsp;</li>
+-->
+	</div>
+
+	<div class="white"></div>
+	<footer>
+		<p style="text-align: center"><a href="./heart.html">持续更新</a></p>
+	</footer>
+
+	<!-- <script>
+
+		//	all = document.getElementsByTagName('*');
+		//	for(var i = 0; i < all.length ; i++){
+		//		console.log(all[i].style.fontSize);
+		//		all[i].style.fontSize *= 1.5;
+		//		console.log(all[i].style.fontSize);
+		//	}
+
+	</script> -->
+	<!-- <script src='./js/myjs1.0.1.js'></script> -->
+</body>
+
+</html>
