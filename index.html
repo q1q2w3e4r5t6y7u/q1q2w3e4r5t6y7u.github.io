@@ -1,168 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <title>我的主页</title>
-    <style>
-		*{
-			padding: 0;
-			margin: 0;
-		}
-		body{
-			background: linear-gradient(to bottom right, #6a11cb 0%, #2575fc 100%); 
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			min-height: 100vh;
-			max-height: 100vh;
-			overflow: hidden;
-		}
-		#continer{
-			width: 80%;
-			display: flex;
-			position: relative;
-			align-items: center;
-			overflow: hidden;
-			min-height: 80vh;
-			background-color: aliceblue;
-			flex-direction: column;
-			background-color: rgba(252,252,255,.8);
-			box-shadow: 0 0 10px rgba(0,0,0,1);
-			border-radius: 60px;
-		}
-		
-		#str{
-			border-radius: 20px;
-			height: 50px;
-			width: 90%;
-			padding: 0 20px;
-		}
-		#scion{
-			position: relative;
-			left: 44.5%;
-			bottom: 44px;
-			z-index: 100;
-			transform: scale(1.4);
-			margin: 7px;
-			display: block;
-		}
-		#header{
-			margin: 20px 0;
-		}
-		#lists{
-			display: inline-block;
-			padding: 5px;
-		}
-		#lists:hover{
-			background-color: rgba(0,0,0,0.17);
-		}
-		#lists:hover > div{
-			height: 90%;
-			opacity: 1;
-			transition: all 0.3s;
-		}
-		#lists > div{
-			display: flex;
-			position: absolute;
-			top:70px;
-			left: 0;
-			width: 100%;
-			height: 0;
-			z-index: 101;
-			background: linear-gradient(to bottom right, rgba(106,17,203,.4) 0%, rgba(37,117,252,.4) 100%); 
-			opacity: 0;
-			align-items: center;
-			justify-content: center;
-		}
-		#c > li{
-			font-size: 1.4rem;
-			list-style-type: none;
-			margin-bottom: 15px;
-			display: block;
-			text-align: center;
-		}
-		#hr{
-			display: block;
-			position: absolute;
-			top: 69px;
-			width: 100%;
-		}
-.hearts{
-	width: 100px;
-	height: 100px;
-	position: relative;
-	background-color: red;
-	transform: rotate(45deg) scale(0.6);
-	animation: heart 1s ease 0s infinite alternate;
-	box-shadow: 0 0 40px red;
-	border-radius:  0 0 20px 0;
-	opacity: 0.7;
-}
-.hearts::after{
-	content: '';
-	width: 50px;
-	height: 100px;
-	position: absolute;
-	top: 0;
-	left: -50px;
-	background-color: red;
-	border-radius: 100px 0 0 100px;
-	box-shadow: 0 0 40px red;
-}
-.hearts::before{
-	content: '';
-	width: 100px;
-	height: 50px;
-	position: absolute;
-	top: -50px;
-	left: 0;
-	background-color: red;
-	border-radius: 100px 100px 0 0;
-	box-shadow: 0 0 40px red;
-}
-@keyframes heart{
-	from{
-		transform: scale(0.6) rotate(45deg);
-	}
-	to{
-		transform: scale(1.2) rotate(45deg);
-	}
-}
-#heart1{
-	top: 100px;
-}
-#heart2{
-	top: 150px;
-	left: 150px;
-}
-#heart3{
-	top: 50px;
-	right: 150px;
-}
-		
-    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--[if IE]><link rel="icon" href="/favicon.ico"><![endif]-->
+    <title>vue</title>
+    <script defer="defer" src="/js/chunk-vendors.37d362ae.js"></script>
+    <script defer="defer" src="/js/app.31b830ef.js"></script>
+    <link href="/css/app.bf55cda0.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="/img/icons/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#4DBA87">
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="vue">
+    <link rel="apple-touch-icon" href="/img/icons/apple-touch-icon-152x152.png">
+    <link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#4DBA87">
+    <meta name="msapplication-TileImage" content="/img/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#000000">
 </head>
-<body>
-    <div id="continer">
-		<header id="header"><h1 id="h1"><i class="fa-solid fa-bars" id="lists"><div>
-			
-			<ul id="c">
-				<li><a href="#">假链接</a></li>
-				<li><a href="#">假链接</a></li>
-				<li><a href="#">假链接</a></li>
-			</ul>
-			
-		</div></i> 360搜索</h1></header><hr id="hr">
-		<input id="str" type="text"><i class="fa-solid fa-magnifying-glass" id="scion"></i>
-		<a href="mybiji.html"><div class="hearts" id="heart1"></div></a>
-		<a href="https://my-9ajuk.kinsta.page/heart.html"><div class="hearts" id="heart2"></div></a>
-		<a href="https://q1q2w3e4r5t6y7u.github.io/heart.html"><div class="hearts" id="heart3"></div></a>
-	</div>
-	<script src="./js/myjs1.0.1.js"></script>
+
+<body><noscript><strong>We're sorry but vue doesn't work properly without JavaScript enabled. Please enable it to
+            continue.</strong></noscript>
+    <div id="app"></div>
 </body>
+
 </html>
-
-
-
